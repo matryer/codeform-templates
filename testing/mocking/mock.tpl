@@ -1,4 +1,10 @@
-{{range .Packages}}package {{.Name}}
+{{/* 
+
+	<title>Interface mocking</title>
+	<author>https://github.com/matryer</author>
+	<description>Generate mocks of interfaces for use in test code</description>
+
+*/}}{{range .Packages}}package {{.Name}}
 {{range .Interfaces}}{{$interface := .}}
 // Mocked{{$interface.Name}} is a mock implementation of {{$interface.Name}}.
 type Mocked{{$interface.Name}} struct {
