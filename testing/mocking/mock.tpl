@@ -1,8 +1,8 @@
 {{/* 
 
-	<title>Interface mocking</title>
-	<author>https://github.com/matryer</author>
-	<description>Generate mocks of interfaces for use in test code</description>
+title: Interface mocking
+author: https://github.com/matryer
+description: Generate mocks of interfaces for use in test code
 
 */}}{{range .Packages}}package {{.Name}}
 {{range .Interfaces}}{{$interface := .}}
