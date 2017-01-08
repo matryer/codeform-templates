@@ -1,0 +1,5 @@
+{
+	"title": "Interface mocking",
+	"author": "https://github.com/matryer",
+	"description": "Generate mocks of interfaces for use in test code."
+}
