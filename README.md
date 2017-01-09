@@ -21,6 +21,7 @@ title: Template title
 author: https://github.com/matryer
 description: Generate mocks of interfaces for use in test code
 example.source: https://link.to/some/source/file
+tags: testing,mocking,something
 
 */}}
 ```
@@ -29,3 +30,4 @@ example.source: https://link.to/some/source/file
 * `description` - Short one-line description of the template
 * `author` - Link to GitHub user account
 * `example.source` - URL of source file that will be used to preview the template
+* `tags` - Comma separated list of related tags

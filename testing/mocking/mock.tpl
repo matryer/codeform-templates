@@ -3,6 +3,7 @@
 title: Interface mocking
 author: https://github.com/matryer
 description: Generate mocks of interfaces for use in test code
+tags: testing,mocking,mock,stub,stubbing
 
 */}}{{range .Packages}}package {{.Name}}
 {{range .Interfaces}}{{$interface := .}}
